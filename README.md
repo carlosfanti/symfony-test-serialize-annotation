@@ -6,6 +6,7 @@ symfony new symfony-test-serialize-annotation
 Then install components
 ```
 symfony composer req symfony/serializer-pack
+symfony composer req sensio/framework-extra-bundle
 symfony composer req maker --dev
 symfony composer req orm
 ```
