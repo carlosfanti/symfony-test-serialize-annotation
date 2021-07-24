@@ -20,7 +20,7 @@ class UserDTO
     }
 
     /**
-     * @Group("group1")
+     * @Groups({"group1"})
      */
     public function getEmail()
     {
